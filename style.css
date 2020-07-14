@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-radius: 50%;
+  border: solid #f79533;
+  border-width: 0.5cm;
+  -webkit-animation: border_gradient 10s ease alternate infinite;
+}
+
+#number{
+  font-family: "Quicksand";
+  font-size: 30px;
+  color: white;
+}
+
+@-webkit-keyframes border_gradient {
+  0%{border: solid #f37055;border-width: 0.5cm;}
+  10%{border: solid #ef4e7b;border-width: 0.5cm;}
+  20%{border: solid #a166ab;border-width: 0.5cm;}
+  30%{border: solid #5073b8;border-width: 0.5cm;}
+  40%{border: solid #1098ad;border-width: 0.5cm;}
+  50%{border: solid #07b39b;border-width: 0.5cm;}
+  60%{border: solid #6fba82;border-width: 0.5cm;}
+}
